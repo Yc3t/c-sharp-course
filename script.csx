@@ -1,12 +1,5 @@
-﻿// Main program
-Person person = new Person();
-person.Name = "John";
-person.Age = 25;
-person.Introduce();
+#nullable enable
 
-Console.ReadLine(); // Keep console window open
-
-// Create a class
 class Person
 {
     public string? Name { get; set; }
@@ -17,3 +10,8 @@ class Person
         Console.WriteLine($"Hi, I'm {Name} and I'm {Age} years old.");
     }
 }
+
+var person = new Person();
+person.Name = "John";
+person.Age = 25;
+person.Introduce();
