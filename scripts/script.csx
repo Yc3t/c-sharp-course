@@ -1,4 +1,5 @@
 #nullable enable
+#r "System.Console"
 
 class Person
 {
@@ -8,6 +9,7 @@ class Person
     public void Introduce()
     {
         Console.WriteLine($"Hi, I'm {Name} and I'm {Age} years old.");
+        Console.WriteLine("hi!");
     }
 }
 
