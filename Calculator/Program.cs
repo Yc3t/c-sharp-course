@@ -31,8 +31,7 @@ class Program
         Console.WriteLine("1. BMP\n2. JPG\n3. PNG\n4. GIF\n5. TIFF");
         Console.Write("\nSelect output format (1-5): ");
 
-        int selection;
-
+        int selection = Console.ReadLine();
 
 
 
